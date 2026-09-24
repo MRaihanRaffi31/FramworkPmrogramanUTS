@@ -210,9 +210,6 @@
                     <span class="w-2.5 h-2.5 rounded-full bg-emerald-600 inline-block"></span>
                     <p class="text-xs sm:text-sm font-semibold text-slate-700">Pesona Wisata Kalimantan Timur &copy; {{ date('Y') }}</p>
                 </div>
-                <p class="text-[11px] sm:text-xs text-slate-700 text-center">
-                    Dibangun untuk Tugas Proyek Framework Pemrograman &bull; Berbasis Laravel &amp; Tailwind CSS
-                </p>
                 <div class="flex items-center gap-3 text-xs font-semibold text-slate-700">
                     <a href="{{ route('destinations.index') }}" class="hover:text-emerald-700 transition-colors">Destinasi</a>
                     <span>&bull;</span>
